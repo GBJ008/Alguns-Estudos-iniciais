@@ -17,4 +17,3 @@ print("Nascimento",data)
 print("Resultado da Area: ",r)
 print("Resultado Total: ",d)
 
-#teste de git
