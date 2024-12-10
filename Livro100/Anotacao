@@ -1,0 +1,30 @@
+% = ele mostra só o resto que sobrou da divisão 
+
+funções do math
+math.ceil()= ele arredonda o número para cima, deixando o número maior o igual ao número da váriavel
+no exemplo do livro ele arredonda 4.7 para 5 ou seja
+
+x = 4.7 
+y math.ceil(x) #arredonda para cima
+print(y) Resultado 5
+
+math.sqr()= outra função da biblioteca, a função dele é calcular a raiz quadrada do número que esta dentro do parentese ou na váriavel 
+no exemplo do livro esta assim
+
+z=math.sqrt(25) calculo da raiz
+print(z) Resultado 5.0
+
+math.floor()= essa função arredonda os números para baixo
+
+math.cos()= que calcula o cosseno
+
+math.log()=para calcular o logaritmo natral 
+
+algumas constantes que tem na biblioteca
+
+math.pi= que é o valor de (pi) 3,14
+
+math.e= para cnstante de Euler
+
+A maioria das Funções do Math trabalha com npumeros flutuantes(Float)
+
