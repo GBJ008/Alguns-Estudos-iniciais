@@ -23,3 +23,10 @@ letra i é o editor
 :wq = é para sair e salvar o arquivo 
 git commit -m "" ( aqui você comenta qual foi a edição que você fez no arquivo, para manter sempre atualizado
 )
+git log= ver o que mudou nós arquivos(quando mudou e quem mudou)
+git log --decorate = vai mostra o que mudou com mais detalhhes
+git log --author=' ' = mostra a pessoa que fez a alteração tipo um filtro para achar o author (o nome que estiver entre aspas )
+git shortlog = mostra quais os auores e quantos comites fizeram e quais eles foram
+git shortlog -sn = só a quantidade de commit e quem commito
+git log --graph = ele vai mostra em forma grafica o que esta acontecendo com os brands e versões 
+git show (o código do commit que aparece no git log)= vai mostra o que foi adicionado em um commit especifico de uma forma mais profunda 
