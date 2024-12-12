@@ -31,4 +31,4 @@ git shortlog -sn = só a quantidade de commit e quem commito
 git log --graph = ele vai mostra em forma grafica o que esta acontecendo com os brands e versões 
 git show (o código do commit que aparece no git log)= vai mostra o que foi adicionado em um commit especifico de uma forma mais profunda 
 git push -u origin main = para enviar remotamente o que foi adicionado no commit( o origin pode ser mudado ele serve para direcionar para qual repositoriao você querq)
-git commit -am '' = o -a serve para adicionar direto 
+git commit -am '' = o -a serve para adicionar direto.
