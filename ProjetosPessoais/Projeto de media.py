@@ -8,14 +8,8 @@ def lernotas():
 
 def resultado(n1,n2,n3,n4,n5,n6,n7):
   media = (n1+n2+n3+n4+n5+n6+n7)/7
-  print("Nota 1: ",n1)
-  print("Nota 2: ",n2)
-  print("Nota 3: ",n3)
-  print("Nota 4: ",n4)
-  print("Nota 5: ",n5)
-  print("Nota 6: ",n6)
-  print("Nota 7: ",n7)
-  print("Media: ",media,"Resultado: ",end="")
+  print('Nota 1 :{} \n Nota 2:{} \n Nota 3:{} \n Nota 4:{} \n Nota 5:{} \n Nota 6:{}\n Nota 7:{}'.format(n1,n2,n3,n4,n5,n6,n7))
+  print("Media: %.2F " % media,"Resultado: ",end="")
   if media >= 7:
     print("Aprovado")
   else:
