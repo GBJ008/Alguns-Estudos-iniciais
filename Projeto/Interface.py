@@ -25,7 +25,4 @@ while True:
         if valores ['Usuario'] == 'Gabriel' and valores ['Senha'] == '04012008': 
             print('Seu login esta correto, seja Bem-vindo')
 
-
-
-            # GBSJ008
-            
+   # GBSJ008
