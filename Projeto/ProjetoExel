@@ -1,0 +1,7 @@
+from openpyxl import Workbook
+
+exel = Workbook()
+ws = exel.active
+ws.title = 'teste'
+ws.title
+
