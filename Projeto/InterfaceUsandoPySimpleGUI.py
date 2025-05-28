@@ -18,7 +18,7 @@ janela= sg.Window('Tela',layout)
 # Ler os Eventos
 while True:
     # Manter a página aberta, e o break é para fechar a pag 
-    eventos, valores,  =  janela.read()
+    eventos, valores =  janela.read()
     if eventos == sg.WINDOW_CLOSED:
         break
     if eventos == 'Entrar':
